@@ -1,26 +1,26 @@
 # Aliases
 
-// Shortcuts
+### Shortcuts
 alias /root="cd ~/"
 alias /code="cd ~/Code"
 alias /downloads="cd ~/Downloads"
 alias /desktop="cd ~/Desktop"
 
-// Terminal
+### Terminal
 alias ls="ls -la"
 alias ip="ifconfig"
 alias reload="source ~/.zshrc"
 
-// Files and apps
+### Files and apps
 alias zshrc="code ~/.zshrc"
 alias hostfile="code /etc/hosts/"
 alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
 alias restartaudio="sudo kill -9 `ps ax|grep 'coreaudio[a-z]' | awk '{print $1}'`"
 
-// NPM
+### NPM
 alias npmi="npm install"
 
-// git
+### git
 alias g="git"
 alias gist="git status"
 alias gips="git push"
@@ -33,7 +33,7 @@ alias gich="git checkout"
 alias undo_last_commit="git reset --soft HEAD~1"
 alias delete_last_commit="git reset --hard HEAD~1"
 
-// Project folder shortcuts
+### Project folder shortcuts
 alias dig="cd ~/Code/DIG"
 alias klare="cd ~/Code/Klare"
 alias noris="cd ~/Code/Noris"
@@ -42,7 +42,7 @@ alias pers="cd ~/Code/Personal"
 alias prudential="cd ~/Code/Prudential"
 alias prud="cd ~/Code/Prudential"
 
-// Projects name shortcuts
+### Projects name shortcuts
 alias bqb="cd booster-questionnaire-builder"
 alias bcp="cd booster-web-cp"
 alias bq="cd booster-web-questionnaire"
