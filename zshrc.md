@@ -1,4 +1,4 @@
-# Aliases
+# ZSHRC file snippets
 
 ### Shortcuts
 ```shell
@@ -63,4 +63,12 @@ alias bqnb="cd booster-web-quote-and-buy"
 alias bui="cd booster-web-ui"
 alias bu="cd booster-web-utils"
 alias raven="cd raven"
+```
+
+### npm run start project with port from .env
+```shell
+function bws {
+  port=$(cat .env | grep PORT= | cut -d '=' -f2)
+  npm start -- --port=$port
+}
 ```
