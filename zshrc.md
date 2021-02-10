@@ -26,6 +26,12 @@ alias restartaudio="sudo kill -9 `ps ax|grep 'coreaudio[a-z]' | awk '{print $1}'
 ### NPM
 ```shell
 alias npmi="npm install"
+alias npmi="npm install"
+alias npml="npm run lint"
+alias npmt="npm run test"
+alias npmtw="npm run test:watch"
+alias npmtc="npm run test:coverage"
+alias npmtr="npm run test:report"
 ```
 
 ### git
