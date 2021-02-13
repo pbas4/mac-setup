@@ -20,6 +20,7 @@ alias reload="source ~/.zshrc"
 alias zshrc="code ~/.zshrc"
 alias hostfile="code /etc/hosts/"
 alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
+alias firefox="/Applications/Firefox.app/Contents/MacOS/Firefox"
 alias restartaudio="sudo kill -9 `ps ax|grep 'coreaudio[a-z]' | awk '{print $1}'`"
 ```
 
