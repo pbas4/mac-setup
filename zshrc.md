@@ -72,9 +72,9 @@ alias bu="cd booster-web-utils"
 alias raven="cd raven"
 ```
 
-### npm run start project with port from .env
+### npm run start project with port from .env: npmsp (__npm__ __s__tart __p__ort)
 ```shell
-function bws {
+function npmsp {
   port=$(cat .env | grep PORT= | cut -d '=' -f2)
   npm start -- --port=$port
 }
