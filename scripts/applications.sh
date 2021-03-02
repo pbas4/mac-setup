@@ -6,31 +6,35 @@ BREWAPPS=(
   node
   # yarn
   zsh
+  nvm
 )
 
 CASKAPPS=(
-  # adobe-creative-cloud
-  boom-3d
-  # dropbox
+  alfred
+  adobe-creative-cloud
+  dropbox
+  docker
   firefox
-  time-out
-  # flux
-  insomnia
+  flux
   google-chrome
+  hyper
+  insomnia
   iterm2
-  # hyper
-  # sketch
+  notion
+  sketch
   slack
   sourcetree
   spectacle
+  sequel-pro
   spotify
   stack
-  # alfred
-  docker
-  # typora
+  the-unarchiver
+  time-out
+  typora
+  vanilla
   visual-studio-code
-  # whatsapp
-  notion
+  vlc
+  whatsapp
 )
 
 MASAPPS=(
@@ -40,11 +44,13 @@ MASAPPS=(
 
 for ((i = 0; i < ${#BREWAPPS[@]}; i++))
 do
+  echo "installing ${BREWAPPS[$i]}..." | tee -a $logFile
   brew install "${BREWAPPS[$i]}"
 done
 
 for ((i = 0; i < ${#CASKAPPS[@]}; i++))
 do
+  echo "installing ${CASKAPPS[$i]}..." | tee -a $logFile
   brew cask install "${CASKAPPS[$i]}"
 done
 

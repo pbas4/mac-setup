@@ -1,5 +1,13 @@
 #!/bin/sh
 
+#"Setting Dock to auto-hide and removing the auto-hiding delay"
+defaults write com.apple.dock autohide -bool true
+defaults write com.apple.dock autohide-delay -float 0
+defaults write com.apple.dock autohide-time-modifier -float 0
+
+# Dock animation faster
+defaults write com.apple.dock autohide-time-modifier -float 0.15;killall Dock
+
 # Confirm dockutil is installed
 if test ! $(which dockutil); then
   echo "Installing dockutil..."
@@ -12,28 +20,20 @@ fi
 
 # Apps to add to Dock
 APPS=(
-  # SPACER
-  # 1Password\ 7
-  # Mail
-  # Calendar
-  # Notes
   SPACER
   # WhatsApp
   Spotify
   Google\ Chrome
+  Firefox
   SPACER
   Visual\ Studio\ Code
   SourceTree
   iTerm
-  # SPACER
-  # Sketch
-  # Adobe\ Lightroom\ Classic\ CC/Adobe\ Lightroom\ Classic\ CC
-  # Adobe\ Photoshop\ CC\ 2018/Adobe\ Photoshop\ CC\ 2018
-  # SPACER
 )
 
 # Folders to add to the Dock
 FOLDERS=(
+  Applications
   Desktop
   Downloads
 )
