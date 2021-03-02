@@ -12,24 +12,24 @@ fi
 
 # Apps to add to Dock
 APPS=(
+  # SPACER
+  # 1Password\ 7
+  # Mail
+  # Calendar
+  # Notes
   SPACER
-  1Password\ 7
-  Mail
-  Calendar
-  Notes
-  SPACER
-  WhatsApp
+  # WhatsApp
   Spotify
   Google\ Chrome
   SPACER
   Visual\ Studio\ Code
   SourceTree
   iTerm
-  SPACER
-  Sketch
-  Adobe\ Lightroom\ Classic\ CC/Adobe\ Lightroom\ Classic\ CC
-  Adobe\ Photoshop\ CC\ 2018/Adobe\ Photoshop\ CC\ 2018
-  SPACER
+  # SPACER
+  # Sketch
+  # Adobe\ Lightroom\ Classic\ CC/Adobe\ Lightroom\ Classic\ CC
+  # Adobe\ Photoshop\ CC\ 2018/Adobe\ Photoshop\ CC\ 2018
+  # SPACER
 )
 
 # Folders to add to the Dock

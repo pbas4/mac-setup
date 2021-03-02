@@ -1,7 +1,7 @@
 #!/bin/sh
 
 BREWAPPS=(
-  dockutil
+  dockutil # Dock utilities
   git
   node
   yarn
@@ -9,30 +9,30 @@ BREWAPPS=(
 )
 
 CASKAPPS=(
-  1password
-  adobe-creative-cloud
+  # adobe-creative-cloud
   boom-3d
-  dropbox
+  # dropbox
   firefox
-  flux
+  # flux
+  insomnia
   google-chrome
   iterm2
-  sketch
+  # hyper
+  # sketch
   slack
   sourcetree
   spectacle
   spotify
   stack
-  typora
+  # typora
   visual-studio-code
-  whatsapp
+  # whatsapp
+  notion
 )
 
 MASAPPS=(
-  937984704
-  405772121
-  1278508951
-  497799835
+  937984704 # Amphetamine
+  497799835 # XCode
 )
 
 for ((i = 0; i < ${#BREWAPPS[@]}; i++))

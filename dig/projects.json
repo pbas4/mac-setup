@@ -1,0 +1,121 @@
+[
+	{
+		"name": "booster/booster-web-cp",
+		"rootPath": "/Users/polbasmantilla/Desktop/DIG/booster/booster-web-cp",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "booster/booster-web-assets",
+		"rootPath": "/Users/polbasmantilla/Desktop/DIG/booster/booster-web-assets",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "booster/booster-questionnaire-builder",
+		"rootPath": "/Users/polbasmantilla/Desktop/DIG/booster/booster-questionnaire-builder",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "booster/booster-web-quote-and-buy",
+		"rootPath": "/Users/polbasmantilla/Desktop/DIG/booster/booster-web-quote-and-buy",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "booster/booster-web-ui",
+		"rootPath": "/Users/polbasmantilla/Desktop/DIG/booster/booster-web-ui",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "booster/raven",
+		"rootPath": "/Users/polbasmantilla/Desktop/DIG/booster/raven",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "prudential/booster-web-quote-and-buy",
+		"rootPath": "/Users/polbasmantilla/Desktop/DIG/prudential/booster-web-quote-and-buy",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "prudential/booster-questionnaire-builder",
+		"rootPath": "/Users/polbasmantilla/Desktop/DIG/prudential/booster-questionnaire-builder",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "prudential/booster-web-cp",
+		"rootPath": "/Users/polbasmantilla/Desktop/DIG/prudential/booster-web-cp",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "prudential/raven",
+		"rootPath": "/Users/polbasmantilla/Desktop/DIG/prudential/raven",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "booster/booster-web-questionnaire",
+		"rootPath": "/Users/polbasmantilla/Desktop/DIG/booster/booster-web-questionnaire",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "prudential/wellness.backend-client-specific",
+		"rootPath": "/Users/polbasmantilla/Desktop/DIG/prudential/wellness.backend-client-specific",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "prudential/booster-web-ui",
+		"rootPath": "/Users/polbasmantilla/Desktop/DIG/prudential/booster-web-ui",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "prudential/booster-web-assets",
+		"rootPath": "/Users/polbasmantilla/Desktop/DIG/prudential/booster-web-assets",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "booster/pdf-builder",
+		"rootPath": "/Users/polbasmantilla/Desktop/DIG/prudential/booster-web-pdf-builder",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "booster / booster-flow-form",
+		"rootPath": "/Users/polbasmantilla/Desktop/DIG/booster/booster-flow-form",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	},
+	{
+		"name": "Dacadoo / dacadoo-quote-and-buy",
+		"rootPath": "/Users/polbasmantilla/Desktop/DIG/dacadoo/dacadoo-quote-and-buy",
+		"paths": [],
+		"group": "",
+		"enabled": true
+	}
+]
