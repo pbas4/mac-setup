@@ -4,7 +4,7 @@ BREWAPPS=(
   dockutil # Dock utilities
   git
   node
-  yarn
+  # yarn
   zsh
 )
 
@@ -13,6 +13,7 @@ CASKAPPS=(
   boom-3d
   # dropbox
   firefox
+  time-out
   # flux
   insomnia
   google-chrome
@@ -24,6 +25,8 @@ CASKAPPS=(
   spectacle
   spotify
   stack
+  # alfred
+  docker
   # typora
   visual-studio-code
   # whatsapp

@@ -102,7 +102,7 @@ source $ZSH/oh-my-zsh.sh
 
 # TERMINAL
 alias cl="clear"
-alias ls="ls -G"
+alias ls="ls -la"
 alias ..="cd .."
 
 # FOLDER
